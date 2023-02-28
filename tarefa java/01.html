@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREFA 1</title>
+</head>
+<body>
+    <script>
+        let idadeAtual
+        let anoAtual = new Date()
+        let anoNascimento = parseInt(prompt("Digite o ano que você nasceu: "))
+
+
+        idadeAtual = anoAtual.getFullYear() - anoNascimento
+        console.log(idadeAtual)
+        if(idadeAtual >= 16 && idadeAtual < 18){
+            console.log("Você pode fazer seu título, menos sua carteira de motorista")
+        }else if(idadeAtual >=18){
+            console.log("Você pode fazer seu título e sua carteira de motorista")
+        } else {
+            console.log("Você pode fazer seu título e sua carteira de motorista")
+        }
+
+    </script>
+</body>
+</html>
